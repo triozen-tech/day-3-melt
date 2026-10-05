@@ -222,7 +222,7 @@
 .is-static .spin-slow {
   animation: none;
 }
-@media (prefers-reduced-motion: reduce) {
+html.is-static {
   .float-soft,
   .drift,
   .blob,
